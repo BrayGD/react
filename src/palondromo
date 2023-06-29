@@ -1,0 +1,9 @@
+function esPalindromo(cadena){
+    let arreglo = cadena.split("");
+    let reversa = arreglo.reverse();
+
+    return cadena == reversa.join("")? "si es" : "no es"
+}
+
+document.write (esPalindromo("OSO"));
+console.log (esPalindromo("OSO"));
